@@ -1,26 +1,29 @@
-# Raylib C++ Starter Template
+# 🎮 Game Library (Raylib + C++)
 
-Raylib C++ Starter Template for Visual Studio Code on Windows.
+A growing **collection of classic games built using C++ and Raylib**.  
+This project is meant to be a simple, playable game library where multiple games live under one codebase.
 
-This demo project contains a bouncing ball raylib example program.
+Currently, the games are **playable locally**, and more games will be added in the future.
 
-It works with raylib version 4.5.
-Tested on both Windows 10 and Windows 11.
+---
 
-# Video Tutorial
+## 🕹️ Games Included
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+- 🐍 **Snake Game**
+- 🧱 **Tetris**
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+More games are planned and will be added over time.
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="https://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** C++
+- **Graphics Library:** [Raylib](https://www.raylib.com/)
+- **Build System:** Makefile
+- **Platform:** Desktop (Windows/Linux)
+
+---
+
+## 📁 Project Structure
 
