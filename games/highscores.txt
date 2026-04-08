@@ -1,3 +1,6 @@
+2048=704
+2048vision=336
 snake=29
+snakevision=8
 spaceinvaders=8300
 tetris=70

@@ -227,6 +227,7 @@ void TetrisGameImpl::Init() {
         highScore = Highscores::Load("tetris");
     }
     score = 0;
+    lastUpdateTime = 0;
 }
 
 void TetrisGameImpl::Update() {

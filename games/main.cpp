@@ -8,6 +8,8 @@
 #include "chess.h"
 #include "space_invaders.h"
 #include "snakeVision.h"
+#include "Two048.h"
+#include "Two048Vision.h"
 
 using namespace std;
 
@@ -37,6 +39,8 @@ int main() {
     // TODO: Add more games here (e.g., games.push_back(make_shared<TetrisGameImpl>());)
     games.push_back(make_shared<chessGameImpl>());
     games.push_back(make_shared<SnakeVisionGameImpl>());
+    games.push_back(make_shared<Two048GameImpl>());
+    games.push_back(make_shared<Two048VisionGameImpl>());
 
     Screen currentScreen = SCREEN_MENU;
     int selectedGame = 0;

@@ -133,6 +133,7 @@ void SnakeVisionGameImpl::Init() {
     running = false;
     gameStarted = false;
     score = 0;
+    lastUpdateTime = 0;
     highScore = Highscores::Load("snakevision");
 
     if (!cvRunning) {

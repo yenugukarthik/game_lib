@@ -72,6 +72,7 @@ void SnakeGameImpl::Init() {
     snakeFood.position = snakeFood.GenerateRandomPosition(snakePlayer.body);
     running = false;
     score = 0;
+    lastUpdateTime = 0;
     highScore = Highscores::Load("snake");
 }
 
