@@ -196,6 +196,25 @@ spaceinvaders=3200
 
 ---
 
+## 🔮 Roadmap — Near Future Plans
+
+Here's what's coming next for the Game Hub:
+
+### ♟️ Chess — Full Completion
+- The Chess game is currently a work in progress (board rendering only).
+- **Planned**: Complete implementation of all chess rules — legal move generation, check/checkmate/stalemate detection, castling, en passant, and pawn promotion.
+
+### 🤖 Chess Engine
+- Once the base game is complete, a **chess engine** will be integrated as an AI opponent.
+- The engine will support configurable difficulty levels so players can challenge themselves at any skill level.
+
+### 🎤 Chess Speech Control — Audio Chess
+- A **voice-controlled chess variant** is planned, similar to the existing 2048 Speech mode.
+- Players will be able to move pieces entirely by **speaking commands** (e.g., *"e2 to e4"*, *"knight to f3"*) using the Vosk offline speech recognition pipeline — no keyboard or mouse required.
+- This will make Chess the most accessible and futuristic game in the hub.
+
+---
+
 ## 📜 License
 
 This project is licensed under the **zlib License** — see [LICENSE.txt](LICENSE.txt) for details.
