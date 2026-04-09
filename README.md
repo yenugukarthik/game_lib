@@ -11,6 +11,7 @@ A growing collection of **classic and AI-powered games** built with **C++ and Ra
 | 🐍 **Snake** | Keyboard | Classic snake with high-score tracking |
 | 🐍 **SnakeVision** | Hand gestures (webcam) | Snake controlled by counting fingers via MediaPipe |
 | 🧱 **Tetris** | Keyboard | Full Tetris with all 7 tetrominoes |
+| 🧱 **Tetris Vision** | Hand gestures (webcam) | Tetris controlled by finger-count gestures |
 | 👾 **Space Invaders** | Keyboard | Multi-level Space Invaders with mystery ship, shields & sound |
 | ♟️ **Chess** | Keyboard | Chess board (work in progress) |
 | 🔢 **2048** | Keyboard | Classic 2048 tile-merge puzzle |
@@ -133,6 +134,17 @@ Navigate the menu with **↑ ↓ arrow keys**, select a game with **Enter**, and
 | ✋ 2 fingers | Move down |
 | ✋ 3 fingers | Move left |
 | ✋ 4 fingers | Move right |
+
+### Tetris / Tetris Vision
+| Input | Action |
+|-------|--------|
+| `← →` | Move piece left / right |
+| `↓` | Fast drop |
+| `↑` | Rotate piece |
+| ✋ 1 finger | Move left |
+| ✋ 2 fingers | Move right |
+| ✋ 3 fingers | Fast drop (one row) |
+| ✋ 4 fingers | Rotate |
 
 ### Space Invaders
 | Key | Action |
